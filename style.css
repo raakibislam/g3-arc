@@ -200,8 +200,11 @@ font-weight: 400;
 .COLOR{
 width: 50%; 
 padding: 1rem 1rem;
-margin-left: 6rem;
+margin-left: 10rem;
 margin-top: 2rem;
+}
+.right-side IMG{
+    width: 100%;
 }
 }
 
@@ -247,4 +250,18 @@ color: #727272;
 font-size: 1rem;
 font-weight: 400;
 margin-top: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .facts-card{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-right: 0;
+        gap: 1rem;
+    }
+    .facts-container{
+        margin-top: 3rem;
+        text-align: center;
+    }
 }
